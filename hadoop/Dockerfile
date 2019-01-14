@@ -60,6 +60,7 @@ COPY conf/core-site.xml /hadoop/etc/hadoop/
 COPY conf/hdfs-site.xml /hadoop/etc/hadoop/
 COPY conf/yarn-site.xml /hadoop/etc/hadoop/
 COPY conf/mapred-site.xml /hadoop/etc/hadoop/
+COPY conf/hadoop-env.sh /hadoop/etc/hadoop/
 COPY profile.d/hadoop.sh /etc/profile.d/
 COPY ssh/config /root/.ssh/
 
